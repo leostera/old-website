@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'Bariol';
+  src: url("fonts/Bariol_Thin.otf") format('opentype');
+}
+
+@font-face {
+  font-family: 'Bariol Light';
+  src: url("fonts/Bariol_Light.otf") format('opentype');
+}
+
+body {
+  background: #272822;
+  font-family: 'Bariol', 'Lucida Grande', 'Lucida Sans', 'Helvetica';
+  font-size: 100%;
+  color: #F8F8F2;
+  width: 90%;
+  opacity: 0;
+  top: -50px;
+  position: absolute;
+}
+
+section, header {
+  width: 70%;
+  margin: 50px auto;
+}
+
+header h1 {
+  font-size: 400%;
+  font-family: 'Bariol Light';
+}
+
+header img {
+  float: left;
+  margin: 0px 15px;
+  width: 200px;
+  border-radius: 100px;
+  opacity: 0.6;
+  -webkit-transition: opacity .15s ease-in-out;
+  -moz-transition: opactiy .15s ease-in-out;
+  -ms-transition: opacity .15s ease-in-out;
+  -o-transition: opacity .15s ease-in-out;
+  transition: opacity .15s ease-in-out;
+}
+
+header img:hover {
+  opacity: 1;
+}
+
+article {
+  font-size: 250%;
+}
+
+a {
+  color: #F92672;
+  text-decoration: none;
+}
+
+.note {
+  color: #75715E;
+}
+
+.small {
+  font-size: 125%;
+}
+
+h1 span.small {
+  font-size: 50%;
+  position: absolute;
+  margin: 10px;
+}
+
+.highlight {
+  color: #A6E22E;
+}
