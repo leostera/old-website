@@ -27,8 +27,9 @@ module.exports = function (grunt) {
           options: {
             key: 'AKIAIKT3SJJUCJPOFCOQ',
             secret: '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',
-            bucket: 'grunt-knox',
-            saveTo: '/leostera/'
+            style: 'path',
+            bucket: 's3.amazonaws.com/www.leostera.com',
+            saveTo: '/'
           },
           live: {
             files: {
