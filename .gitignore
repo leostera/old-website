@@ -1,6 +1,2 @@
+components
 node_modules
-dist
-.tmp
-.sass-cache
-app/components
-.DS_Store
