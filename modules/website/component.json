@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "repo": "leostera/website",
+  "description": "",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js",
+    "config.js",
+    "routes.js",
+    "controllers/hello.js",
+    "views/hello.js",
+    "views/test.js",
+    "views/test-view.js"
+  ],
+  "styles": [
+    "styles/main.css"
+  ]
+}
