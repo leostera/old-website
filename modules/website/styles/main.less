@@ -1,6 +1,52 @@
 @green: #8cc84b;
+@gray: #191919;
 
 body {
-  background-color: @green;
+  font-family: Bariol;
+  font-size: 3em;
+
+  background-color: @gray;
+
+  padding: 50px;
+
+  color: @green;
+
+  h1, h2, h3 {
+    padding: 0;
+    margin: 0;
+  }
+
+  overflow: hidden;
 }
 
+header {
+  text-align: center;
+
+  &:before {
+    content: 'λ';
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: -300;
+    left: -90;
+    font-size: 1650px;
+    color: rgba(255,255,255,0.02);
+  }
+
+  ul {
+    list-style-type: none;
+    li {
+      float: left;
+      padding: 10px;
+      display: block;
+      i {
+        float: left;
+        margin-left: 20%;
+
+        &.short {
+          margin-left: 25%;
+        }
+      }
+    }
+  }
+}

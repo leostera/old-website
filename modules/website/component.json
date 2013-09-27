@@ -13,9 +13,7 @@
     "config.js",
     "routes.js",
     "controllers/hello.js",
-    "views/hello.js",
-    "views/test.js",
-    "views/test-view.js"
+    "views/hello.js"
   ],
   "styles": [
     "styles/main.css"

@@ -1,1 +1,1 @@
-module.exports = '<h2>helloncho!</h2>\n<section>\n  {{message}}\n</section>';
+module.exports = '<header>\n  <img src="images" alt="Oops, this should be my picture.">\n  <h2>\n    Hi, I\'m Leandro\n    <br>and I\'m an Engineer\n  </h2>\n  <p>\n    <ul>\n      <li>I crave <i>simplicity</i></li>\n      <li>I covet <i>knowledge</i></li>\n      <li>I pursue <i class="short">ingenuity</i></li>\n    </ul>\n  </p>\n</header>\n';
