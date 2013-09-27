@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "leostera/angular.js": "*"
+  },
+  "local": [
+    "core",
+    "website"
+  ],
+  "paths": [
+    "./components",
+    "./modules"
+  ],
+  "remotes": []
+}

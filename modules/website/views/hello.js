@@ -1,0 +1,1 @@
+module.exports = '<h2>hello</h2>\n<section>\n  {{message}}\n</section>';

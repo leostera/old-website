@@ -10,9 +10,10 @@
   "main": "index.js",
   "scripts": [
     "index.js",
-    "controllers/home.js",
-    "views/home.html",
-    "services/rest-feed.js"
+    "config.js",
+    "routes.js",
+    "controllers/hello.js",
+    "views/hello.js"
   ],
   "styles": []
 }
