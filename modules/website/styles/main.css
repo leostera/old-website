@@ -1,42 +1,22 @@
+* {
+  font-family: Bariol !important;
+  font-weight: normal;
+  color: whitesmoke !important;
+}
 body {
-  font-family: Bariol;
-  font-size: 3em;
-  background-color: #191919;
-  padding: 50px;
-  color: #8cc84b;
-  overflow: hidden;
+  background-color: #0B0B0B;
 }
-body h1,
-body h2,
-body h3 {
-  padding: 0;
-  margin: 0;
+section {
+  border: 1 solid white;
 }
-header {
+header > section {
   text-align: center;
+  padding: 50px;
+  height: 150px;
 }
-header:before {
-  content: 'λ';
-  position: absolute;
-  margin: 0;
-  padding: 0;
-  top: -300;
-  left: -90;
-  font-size: 1650px;
-  color: rgba(255, 255, 255, 0.02);
-}
-header ul {
-  list-style-type: none;
-}
-header ul li {
-  float: left;
-  padding: 10px;
-  display: block;
-}
-header ul li i {
-  float: left;
-  margin-left: 20%;
-}
-header ul li i.short {
-  margin-left: 25%;
+section.greeting img {
+  max-width: 120px !important;
+  max-height: 120px !important;
+  border-radius: 30px;
+  border: 1px solid #979797;
 }

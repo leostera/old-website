@@ -1,9 +1,11 @@
 {
   "dependencies": {
-    "leostera/angular.js": "*"
+    "componentizr/foundation": "*",
+    "componentizr/angular": "*",
+    "componentizr/angular-route": "*",
+    "componentizr/angular-animate": "*"
   },
   "local": [
-    "core",
     "website"
   ],
   "paths": [

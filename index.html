@@ -1,25 +1,28 @@
 <html ng-app="leostera.com">
 <head>
   <meta charset="UTF-8">
-  <title>Welcome to leostera.com</title>
-  <link rel="stylesheet" href="build/build.css">
+  <title>Leandro Ostera</title>
+  <link rel="stylesheet" href="/build/build.css">
 </head>
 <body>
   <ng-view></ng-view>
-  <script src="build/build.js"></script>
+  <script src="/build/build.js"></script>
   <script>
-  // require angular and submodules
-  require('leostera-angular.js');
-  require('leostera-angular.js/build/angular-route.js');
-  require('leostera-angular.js/build/angular-animate.js');
-  require('leostera-angular.js/build/angular-cookies.js');
-  require('leostera-angular.js/build/angular-sanitize.js');
-  require('leostera-angular.js/build/angular-resource.js');
+  var foundation = require('foundation');
 
-  // bootstrap your app
-  bootstrap = require('core');
-  bootstrap('leostera.com', ['website']);
+  // require angular and submodules
+  var angular = require('angular');
+  require('angular-route');
+  require('angular-animate');
+
+  // require my custom module
   require('website');
+
+  // register the app module
+  angular.module('leostera.com', ['ngRoute','website']);
+  angular.module('leostera.com').run(function () {
+    foundation.init(document);
+  });
   </script>
 </body>
 </html>

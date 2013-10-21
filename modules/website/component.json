@@ -1,11 +1,8 @@
 {
   "name": "website",
   "repo": "leostera/website",
-  "description": "",
+  "description": "My website",
   "version": "0.0.1",
-  "keywords": [],
-  "dependencies": {},
-  "development": {},
   "license": "MIT",
   "main": "index.js",
   "scripts": [
