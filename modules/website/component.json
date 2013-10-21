@@ -21,6 +21,7 @@
     "views/hello.js"
   ],
   "styles": [
-    "styles/main.css"
+    "styles/main.css",
+    "styles/animations.css"
   ]
 }
