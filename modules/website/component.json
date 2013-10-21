@@ -5,6 +5,14 @@
   "version": "0.0.1",
   "license": "MIT",
   "main": "index.js",
+  "images": [
+    "images/lambda.png",
+    "images/angellist.png",
+    "images/email.png",
+    "images/github.png",
+    "images/tumblr.png",
+    "images/vimeo.png"
+  ],
   "scripts": [
     "index.js",
     "config.js",
