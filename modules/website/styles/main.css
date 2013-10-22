@@ -29,12 +29,10 @@ section.lambda {
 }
 section.greeting > section img {
   margin: 20px;
+  margin-top: 5px;
   float: left;
   display: block;
-  width: 120px !important;
-  height: 120px !important;
-  border-radius: 30px;
-  border: 1px solid #979797;
+  width: 25%;
 }
 section.greeting > section h1 {
   padding: 20px;
@@ -73,6 +71,11 @@ section.more p {
   font-size: 30px;
   color: #FFF7F7;
   line-height: 33px;
+}
+section.icons p {
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
 }
 section.icons i {
   display: block;
