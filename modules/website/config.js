@@ -1,4 +1,8 @@
 angular.module('website')
-.config(['$locationProvider', function ($locationProvider) {
+.config(['$locationProvider', 'NotificationProvider',
+  function ($locationProvider, NotificationProvider) {
+  NotificationProvider.setDefaults({
+    image: "/build/website/images/lea.png"
+  });
   $locationProvider.html5Mode(true);
 }]);

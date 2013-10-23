@@ -19,7 +19,8 @@
     "config.js",
     "routes.js",
     "controllers/hello.js",
-    "views/hello.js"
+    "views/hello.js",
+    "scripts/routes.js"
   ],
   "styles": [
     "styles/main.css",
