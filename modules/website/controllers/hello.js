@@ -4,7 +4,7 @@
 angular.module('website')
   .controller('Hello',['$scope', '$routeParams', 'Notification'
   , function ($scope, $routeParams, Notification) {
-    $scope.message = 'Welcome to Hello';
+    $scope.name = $routeParams.name || undefined;
     $scope.greet = function () {
       Notification.create({
         title: "Ahoy!",
