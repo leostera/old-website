@@ -3,7 +3,8 @@
     "componentizr/foundation": "*",
     "componentizr/angular": "*",
     "componentizr/angular-route": "*",
-    "componentizr/angular-animate": "*"
+    "componentizr/angular-animate": "*",
+    "ng2/notifications": "*"
   },
   "local": [
     "website"
